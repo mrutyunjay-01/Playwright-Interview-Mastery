@@ -38,6 +38,12 @@ export default defineConfig({
   projects: [
     {
       name: 'chrome',
+      use: { ...devices['Desktop Chrome'], 
+      storageState: '.auth/session.json'},
+    },
+
+    {  
+      name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
 
