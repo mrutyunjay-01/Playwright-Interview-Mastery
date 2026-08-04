@@ -1,0 +1,28 @@
+{
+  "name": "playwright-interview-mastery",
+  "version": "1.0.0",
+  "description": "A hands-on Playwright interview preparation repository focused on building industry-grade test automation skills through daily coding, clean architecture, and real-world SDET scenarios using TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrutyunjay-01/Playwright-Interview-Mastery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrutyunjay-01/Playwright-Interview-Mastery/issues"
+  },
+  "homepage": "https://github.com/mrutyunjay-01/Playwright-Interview-Mastery#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
