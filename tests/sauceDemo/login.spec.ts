@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ENV } from '../config/env';
+import { ENV } from '../../config/env';
 
 test('login-001 Validate Successful Login to SauceDemo Site', async ({page}) => {
     await page.goto('https://www.saucedemo.com/');
